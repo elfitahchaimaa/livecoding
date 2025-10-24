@@ -18,6 +18,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     background-color: gray;
+    width: 100%;
    
 }
 .section2{
@@ -131,6 +132,7 @@ color: gray;
     border-radius: 10px;
 }
 .section2{
+    width: 40%;
     color: black;
     background-color: aliceblue;
     padding: 10px;
