@@ -8,7 +8,7 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: palevioletred;
+
     height: 100vh;
     padding: 20px;
     margin: 50px;
@@ -17,7 +17,7 @@
 .section1{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    background-color: rgb(180, 39, 86);
+    background-color: gray;
    
 }
 .section2{
@@ -31,11 +31,22 @@
     grid-template-columns: 1fr 1fr;
     color: black;
     background-color: rgb(186, 186, 186);
-    gap:5px;
+    gap:10px;
     margin: 0px;
     justify-content: center;
+    padding: 20px;
     
     
+}
+.row2{
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+    background-color: rgb(186, 186, 186);
+    gap:10px;
+    margin: 0px;
+    justify-content: center;
+    padding: 20px;  
 }
 .colone1{
    
@@ -45,11 +56,15 @@
     background-image: url(GryffindorElites-LiveCoding-HTML-CSS-master/images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
    width: 100%;
+   height: 100%;
 
 }
 .colone2{
-    background-color: beige;
+    background-color: rgb(58, 58, 56);
     width: 80%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
 }
 .image{
     display: grid;
@@ -100,4 +115,20 @@ color: gray;
 .sec{
     color: aliceblue;
     
+}
+.colonne1{
+    background-color: aliceblue;
+    color:black;
+     width: 80%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.colonne2{
+    background-color: gray;
+    color:aliceblue;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
 }
